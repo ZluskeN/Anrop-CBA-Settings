@@ -3,7 +3,7 @@ force ace_advanced_fatigue_enabled = false;
 force ace_captives_requireSurrender = 0;
 
 force ace_common_checkPBOsAction = 0;
-force ace_common_checkPBOsCheckAll = true;
+force ace_common_checkPBOsCheckAll = false;
 
 force ace_cookoff_enable = false;
 force ace_cookoff_enableAmmobox = false;
