@@ -28,3 +28,5 @@ force ace_respawn_removeDeadBodiesDisconnected = false;
 force ace_respawn_savePreDeathGear = true;
 
 force ace_weather_enabled = false;
+
+force TFAR_AICanHearPlayer = true;
