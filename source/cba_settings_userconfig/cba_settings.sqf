@@ -29,4 +29,11 @@ force ace_respawn_savePreDeathGear = true;
 
 force ace_weather_enabled = false;
 
+force ace_zeus_autoAddObjects = false;
+force ace_zeus_radioOrdnance = false;
+force ace_zeus_remoteWind = false;
+force ace_zeus_revealMines = 0;
+force ace_zeus_zeusAscension = false;
+force ace_zeus_zeusBird = false;
+
 force TFAR_AICanHearPlayer = true;
