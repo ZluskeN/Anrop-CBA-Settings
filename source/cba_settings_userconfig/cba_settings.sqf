@@ -20,6 +20,11 @@ force ace_hearing_enableCombatDeafness = false;
 force ace_medical_menu_allow = 1;
 force ace_medical_moveUnitsFromGroupOnUnconscious = true;
 
+force ace_nightvision_disableNVGsWithSights = false;
+force ace_nightvision_fogScaling = 1;
+force ace_nightvision_effectScaling = 1;
+force ace_nightvision_aimDownSightsBlur = 1;
+
 force ace_overheating_unJamOnreload = true;
 
 force ace_repair_autoShutOffEngineWhenStartingRepair = true;
