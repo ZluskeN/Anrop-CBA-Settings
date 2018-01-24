@@ -45,3 +45,7 @@ force acex_sitting_enable = true;
 
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
+force TFAR_SameLRFrequenciesForSide = true;
+force TFAR_SameSRFrequenciesForSide = true;
+force TFAR_setting_defaultFrequencies_lr_west = "70";
+force TFAR_setting_defaultFrequencies_sr_west = "110,120,130,140,150,160,170,180,190";
