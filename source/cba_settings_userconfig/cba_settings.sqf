@@ -37,3 +37,4 @@ force ace_zeus_zeusAscension = false;
 force ace_zeus_zeusBird = false;
 
 force TFAR_AICanHearPlayer = true;
+force TFAR_AICanHearSpeaker = true;
