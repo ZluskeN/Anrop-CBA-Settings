@@ -41,6 +41,8 @@ force ace_zeus_revealMines = 0;
 force ace_zeus_zeusAscension = false;
 force ace_zeus_zeusBird = false;
 
+force acex_headless_enabled = true;
+
 force acex_sitting_enable = true;
 
 force TFAR_AICanHearPlayer = true;
