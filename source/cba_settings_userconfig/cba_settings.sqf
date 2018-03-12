@@ -1,5 +1,6 @@
 force ace_advanced_fatigue_enabled = false;
 
+force ace_captives_allowHandcuffOwnSide = false;
 force ace_captives_requireSurrender = 0;
 
 force ace_common_checkPBOsAction = 0;
