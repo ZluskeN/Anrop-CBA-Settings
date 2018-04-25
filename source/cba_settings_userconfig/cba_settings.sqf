@@ -57,3 +57,5 @@ force grad_trenches_functions_allowBigEnvelope = false;
 force grad_trenches_functions_allowGigantEnvelope = false;
 force grad_trenches_functions_allowShortEnvelope = false;
 force grad_trenches_functions_allowVehicleEnvelope = false;
+force grad_trenches_functions_smallEnvelopeDigTime = 60;
+
