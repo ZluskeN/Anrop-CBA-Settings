@@ -18,8 +18,9 @@ force ace_goggles_effects = 0;
 
 force ace_hearing_enableCombatDeafness = false;
 
+force ace_map_mapShowCursorCoordinates = true;
+
 force ace_medical_menu_allow = 1;
-force ace_medical_moveUnitsFromGroupOnUnconscious = true;
 force ace_medical_allowUnconsciousAnimationOnTreatment = true;
 force ace_medical_playerDamageThreshold = 2;
 force ace_medical_enableUnconsciousnessAI = 0;
