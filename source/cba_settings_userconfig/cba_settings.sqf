@@ -7,8 +7,9 @@ force ace_common_checkPBOsAction = 0;
 force ace_common_checkPBOsCheckAll = false;
 
 force ace_cookoff_enable = false;
-force ace_cookoff_enableAmmobox = false;
+force ace_cookoff_enableAmmobox = true;
 force ace_cookoff_enableAmmoCookoff = false;
+force ace_cookoff_ammoCookoffDuration = 0.1;
 
 force ace_finger_enabled = true;
 
