@@ -50,6 +50,11 @@ force acex_headless_enabled = true;
 
 force acex_sitting_enable = true;
 
+// Diwako's ACE Ragdolling
+force diwako_ragdoll_ai = true;
+force diwako_ragdoll_ragdolling = true;
+force diwako_ragdoll_server_only = true;
+
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
 force TFAR_SameLRFrequenciesForSide = true;
