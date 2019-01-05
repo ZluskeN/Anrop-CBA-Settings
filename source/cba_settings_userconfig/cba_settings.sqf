@@ -25,6 +25,7 @@ force ace_medical_menu_allow = 1;
 force ace_medical_allowUnconsciousAnimationOnTreatment = true;
 force ace_medical_playerDamageThreshold = 2;
 force ace_medical_enableUnconsciousnessAI = 0;
+force ace_medical_painEffectType = 1;
 
 force ace_nightvision_disableNVGsWithSights = false;
 force ace_nightvision_fogScaling = 1;
