@@ -74,3 +74,6 @@ force grad_trenches_functions_allowShortEnvelope = false;
 force grad_trenches_functions_allowVehicleEnvelope = false;
 force grad_trenches_functions_smallEnvelopeDigTime = 60;
 
+force acre_sys_core_automaticAntennaDirection = true;
+force acre_sys_core_fullDuplex = true;
+force acre_sys_signal_signalModel = 1;
