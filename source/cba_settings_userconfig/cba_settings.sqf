@@ -22,12 +22,12 @@ force ace_hearing_enableCombatDeafness = false;
 
 force ace_map_mapShowCursorCoordinates = true;
 
-force ace_medical_ai_enabledFor = 0;                    // Medical system not enabled for AI
-force ace_medical_feedback_painEffectType = 2;          // Pain effect type is "Chromatic Abberation".
-force ace_medical_gui_enableMedicalMenu = 1;            // Enable medical menu.
-force ace_medical_playerDamageThreshold = 2;            // The amount of damage a player unit can take before dying.
-force ace_medical_statemachine_AIUnconsciousness = 0;   // AI will not go unconscious for any reason, and therefore never enter cardiac arrest.
-force ace_medical_statemachine_fatalInjuriesAI = 0;     // AI will always die instantly.
+force ace_medical_ai_enabledFor = 0;                      // Medical system not enabled for AI
+force ace_medical_feedback_painEffectType = 2;            // Pain effect type is "Chromatic Abberation".
+force ace_medical_gui_enableMedicalMenu = 1;              // Enable medical menu.
+force ace_medical_playerDamageThreshold = 2;              // The amount of damage a player unit can take before dying.
+force ace_medical_statemachine_AIUnconsciousness = false; // AI will not go unconscious for any reason, and therefore never enter cardiac arrest.
+force ace_medical_statemachine_fatalInjuriesAI = 0;       // AI will always die instantly.
 
 force ace_nightvision_disableNVGsWithSights = false;
 force ace_nightvision_fogScaling = 1;
