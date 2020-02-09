@@ -11,7 +11,7 @@ REM Mount current folder
 subst p: "%modpath%\source"
 
 REM Build pbo files using pboproject and check for errors
-pboproject +Clean -Engine=Arma3 -Key -Workspace=P:\ -Noisy -P +Mod="%modpath%\@anrop_cba_settings" -F +W -Z P:\cba_settings_userconfig
+pboproject +Clean -Engine=Arma3 -Key -Noisy -P +Mod="%modpath%\@anrop_cba_settings" -F +Warnings -Z P:\cba_settings_userconfig
 
 REM Remove drive mapping
 subst p: /d
