@@ -6,7 +6,7 @@ force ace_captives_requireSurrender = 0;
 force ace_common_checkPBOsAction = 0;
 force ace_common_checkPBOsCheckAll = false;
 
-force ace_cookoff_enable = 1; // ACE 3.13.0 uses settings incorrectly, 1 is AI + Players instead of 2 as it should be
+force ace_cookoff_enable = 2;
 force ace_cookoff_enableAmmobox = true;
 force ace_cookoff_enableAmmoCookoff = false;
 force ace_cookoff_ammoCookoffDuration = 0.1;
