@@ -54,10 +54,20 @@ force acex_headless_enabled = true;
 
 force acex_sitting_enable = true;
 
+force acre_sys_core_automaticAntennaDirection = true;
+force acre_sys_core_fullDuplex = true;
+force acre_sys_signal_signalModel = 1;
+
 // Diwako's ACE Ragdolling
 force diwako_ragdoll_ai = true;
 force diwako_ragdoll_ragdolling = true;
 force diwako_ragdoll_server_only = true;
+
+force grad_trenches_functions_allowBigEnvelope = false;
+force grad_trenches_functions_allowGigantEnvelope = false;
+force grad_trenches_functions_allowShortEnvelope = false;
+force grad_trenches_functions_allowVehicleEnvelope = false;
+force grad_trenches_functions_smallEnvelopeDigTime = 60;
 
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
@@ -69,13 +79,3 @@ force TFAR_setting_defaultFrequencies_lr_east = "70";
 force TFAR_setting_defaultFrequencies_sr_east = "110,120,130,140,150,160,170,180,190";
 force TFAR_setting_defaultFrequencies_lr_independent = "70";
 force TFAR_setting_defaultFrequencies_sr_independent = "110,120,130,140,150,160,170,180,190";
-
-force grad_trenches_functions_allowBigEnvelope = false;
-force grad_trenches_functions_allowGigantEnvelope = false;
-force grad_trenches_functions_allowShortEnvelope = false;
-force grad_trenches_functions_allowVehicleEnvelope = false;
-force grad_trenches_functions_smallEnvelopeDigTime = 60;
-
-force acre_sys_core_automaticAntennaDirection = true;
-force acre_sys_core_fullDuplex = true;
-force acre_sys_signal_signalModel = 1;
