@@ -4,14 +4,15 @@ Contains default CBA Settings
 
 ## Build locally
 
-Make sure pboproject and any dependencies are installed from https://armaservices.maverick-applications.com/Products/MikerosDosTools/FileBrowserFree
+Download HEMTT from https://github.com/BrettMayson/HEMTT/releases/tag/v0.6.1
 
-Double click build.bat to generate pbo files in @anrop_cba_settings.
-Check source/temp for build logs.
+Build with `hemtt build`.
+The resulting built pbos are stored in the addons folder.
+The project folder can be mounted into Arma and the pbos will be read from the addons folder.
 
 ## Build on Jenkins
 
 Project uses Jenkinsfile to define build steps.
 Add the repository or organization to Jenkins as a pipeline job and it should pick it up automatically.
 
-It requires a node with the label "mikero" and pboproject must be available in PATH
+It requires a node with the label "hemtt" and hemtt must be available in PATH
