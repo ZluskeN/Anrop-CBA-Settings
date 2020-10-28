@@ -1,18 +1,18 @@
 pipeline {
     agent {
-        label 'mikero'
+        label 'hemtt'
     }
 
     stages {
         stage('Build') {
             steps {
-                bat 'build.bat'
-                archiveArtifacts artifacts: '@anrop_cba_settings/**/*'
+                bat 'hemtt build --release' 
             }
-            post {
-                always {
-                    bat 'subst p: /d > nul || exit /b 0'
-                }
+        }
+
+        stage('Archive Build') {
+            steps {
+                archiveArtifacts artifacts: 'releases/1.0.0/**/*'
             }
         }
 
@@ -22,7 +22,7 @@ pipeline {
             }
 
             steps {
-                publishSteamWorkshop '1591805823', '@anrop_cba_settings', "https://github.com/Anrop/Anrop-CBA-Settings/commit/${env.GIT_COMMIT}"
+                publishSteamWorkshop '1591805823', 'releases/1.0.0/@anrop_cba_settings', "https://github.com/Anrop/Anrop-CBA-Settings/commit/${env.GIT_COMMIT}"
             }
         }
     }

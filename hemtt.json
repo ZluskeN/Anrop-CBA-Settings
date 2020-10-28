@@ -1,0 +1,13 @@
+{
+  "name": "Anrop CBA Settings",
+  "prefix": "anrop_cba_settings",
+  "version": "1.0.0",
+  "author": "Anrop",
+  "files": [
+    "anrop_ca.paa",
+    "mod.cpp"
+  ],
+  "keyname": "anrop_cba_settings",
+  "signame": "anrop_cba_settings",
+  "sigversion": 3
+}
