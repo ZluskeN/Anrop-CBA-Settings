@@ -58,11 +58,6 @@ force acre_sys_core_automaticAntennaDirection = true;
 force acre_sys_core_fullDuplex = true;
 force acre_sys_signal_signalModel = 1;
 
-// Diwako's ACE Ragdolling
-force diwako_ragdoll_ai = true;
-force diwako_ragdoll_ragdolling = true;
-force diwako_ragdoll_server_only = true;
-
 force grad_trenches_functions_allowBigEnvelope = false;
 force grad_trenches_functions_allowGigantEnvelope = false;
 force grad_trenches_functions_allowShortEnvelope = false;
