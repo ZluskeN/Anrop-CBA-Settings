@@ -66,6 +66,7 @@ force grad_trenches_functions_smallEnvelopeDigTime = 60;
 
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
+force TFAR_objectInterceptionEnabled = false;
 force TFAR_SameLRFrequenciesForSide = true;
 force TFAR_SameSRFrequenciesForSide = true;
 force TFAR_setting_defaultFrequencies_lr_west = "70";
