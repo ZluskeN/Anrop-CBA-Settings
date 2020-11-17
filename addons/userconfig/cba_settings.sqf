@@ -59,10 +59,13 @@ force acre_sys_core_fullDuplex = true;
 force acre_sys_signal_signalModel = 1;
 
 force grad_trenches_functions_allowBigEnvelope = false;
-force grad_trenches_functions_allowGigantEnvelope = false;
+force grad_trenches_functions_allowGiantEnvelope = false;
 force grad_trenches_functions_allowShortEnvelope = false;
 force grad_trenches_functions_allowVehicleEnvelope = false;
-force grad_trenches_functions_smallEnvelopeDigTime = 60;
+force grad_trenches_functions_allowLongEnvelope = false;
+
+force ZSN_AllowArsenal = false;
+force ZSN_AllowRandomWeapon = false;
 
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
