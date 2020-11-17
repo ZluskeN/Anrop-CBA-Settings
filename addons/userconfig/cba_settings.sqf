@@ -59,10 +59,10 @@ force acre_sys_core_fullDuplex = true;
 force acre_sys_signal_signalModel = 1;
 
 force grad_trenches_functions_allowBigEnvelope = false;
-force grad_trenches_functions_allowGigantEnvelope = false;
+force grad_trenches_functions_allowGiantEnvelope = false;
+force grad_trenches_functions_allowLongEnvelope = false;
 force grad_trenches_functions_allowShortEnvelope = false;
 force grad_trenches_functions_allowVehicleEnvelope = false;
-force grad_trenches_functions_smallEnvelopeDigTime = 60;
 
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
@@ -75,3 +75,6 @@ force TFAR_setting_defaultFrequencies_lr_east = "70";
 force TFAR_setting_defaultFrequencies_sr_east = "110,120,130,140,150,160,170,180,190";
 force TFAR_setting_defaultFrequencies_lr_independent = "70";
 force TFAR_setting_defaultFrequencies_sr_independent = "110,120,130,140,150,160,170,180,190";
+
+force ZSN_AllowArsenal = false;
+force ZSN_AllowRandomWeapon = false;
