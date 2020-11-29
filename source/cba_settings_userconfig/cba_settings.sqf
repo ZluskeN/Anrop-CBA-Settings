@@ -49,6 +49,9 @@ force acex_headless_enabled = true;
 
 force acex_sitting_enable = true;
 
+force dzn_MG_Tripod_DeployedAimCoef = 0.5;
+force dzn_MG_Tripod_DeployedRecoilCoef = 0.5;
+
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
 force TFAR_SameLRFrequenciesForSide = true;
