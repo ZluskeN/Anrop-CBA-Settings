@@ -10,15 +10,18 @@ force ace_cookoff_enable = 2;
 force ace_cookoff_enableAmmobox = true;
 force ace_cookoff_enableAmmoCookoff = false;
 force ace_cookoff_ammoCookoffDuration = 0.1;
-force ace_cookoff_probabilityCoef = 0.1;
+force ace_cookoff_probabilityCoef = 0.3;
 
 force ace_finger_enabled = true;
 
 force ace_gforces_enabledFor = 0;
 
-force ace_goggles_effects = 0;
+force ace_goggles_effects = 3;
+force ace_goggles_showClearGlasses = true;
 
 force ace_hearing_enableCombatDeafness = false;
+
+force ace_interact_menu_consolidateSingleChild = true;
 
 force ace_map_mapShowCursorCoordinates = true;
 
@@ -102,11 +105,20 @@ force acre_sys_core_automaticAntennaDirection = true;
 force acre_sys_core_fullDuplex = true;
 force acre_sys_signal_signalModel = 1;
 
+force CUP_staticWeapons_allowMovement = true;
+force CUP_staticWeapons_allowRotation = true;
+
+force diwako_dui_nametags_renderDistance = 100;
+
+force dzn_MG_Tripod_DeployedAimCoef = 0.5;
+force dzn_MG_Tripod_DeployedRecoilCoef = 0.5;
+
 force grad_trenches_functions_allowBigEnvelope = false;
 force grad_trenches_functions_allowGiantEnvelope = false;
 force grad_trenches_functions_allowLongEnvelope = false;
 force grad_trenches_functions_allowShortEnvelope = false;
 force grad_trenches_functions_allowVehicleEnvelope = false;
+force grad_trenches_functions_buildFatigueFactor = 0;
 
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
