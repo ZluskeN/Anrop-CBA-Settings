@@ -27,7 +27,7 @@ force ace_map_mapShowCursorCoordinates = true;
 
 force ace_medical_ai_enabledFor = 2;                      // Medical AI is Enabled for all clients and server
 force ace_medical_AIDamageThreshold = 0.8;                // The amount of damage an AI unit can take before dying.
-force ace_medical_bleedingCoefficient = 1.2;              // Coefficient for controlling the bleeding speed
+force ace_medical_bleedingCoefficient = 2;                // Coefficient for controlling the bleeding speed
 force ace_medical_blood_bloodLifetime = 900;              // Lifetime of blood drop objects
 force ace_medical_blood_enabledFor = 2;                   // Blood drops enabled for all units
 force ace_medical_blood_maxBloodObjects = 300;            // Maximum number of blood drop objects that can be spawned
